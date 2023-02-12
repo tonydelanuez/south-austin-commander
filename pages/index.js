@@ -17,7 +17,7 @@ export default function Home() {
         <p className="description">
           We're a group of Magic the Gathering players who meet to at various places in South Austin and play the <a href="https://magic.wizards.com/en/formats/commander">Commander</a> format. New player friendly!
         </p>
-        <a href="https://discord.southaustincommander.com">
+        <a href="https://www.southaustincommander.com/discord">
           <button className="blurple-button">Come join us on Discord!</button>
         </a>
       </main>
