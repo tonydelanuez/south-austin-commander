@@ -6,18 +6,19 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>South Austin Commander</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Ready to play some Commander in South Austin?" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          We're a group of Magic the Gathering players who meet to at various places in South Austin and play the <a href="https://magic.wizards.com/en/formats/commander">Commander</a> format. We're also new player friendly!
         </p>
+        <a href="https://discord.southaustincommander.com">
+          <button className="blurple-button">Come join us on Discord!</button>
+        </a>
       </main>
-
-      <Footer />
     </div>
   )
 }
